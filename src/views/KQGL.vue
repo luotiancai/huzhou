@@ -87,6 +87,9 @@ export default {
           break
       }
     }
+    window.wtf = () => {
+      console.log('lty')
+    }
     onMounted(() => {
       const xzbj = require('@/assets/xzbj.json')
       const cktk = require('@/assets/cktk.json')
@@ -175,12 +178,13 @@ export default {
           })
         },
         onEachFeature: (feature, layer) => {
+          layer.bindPopup('<button onclick=\'wtf()\'>更多</button>', {
+            className: 'gisModel'
+          })
           layer.on('click', () => {
             // 点击进入详细页面
             console.log('aaa')
-            layer.bindPopup('aaaaa', {
-              className: 'crcaPopup'
-            }).openPopup()
+            layer.openPopup()
           })
         }
       })
@@ -269,9 +273,9 @@ export default {
   width: 5%;
   height: 5%;
 }
-.crcaPopup {
+.gisModel {
   .leaflet-popup-close-button {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 }
 </style>
