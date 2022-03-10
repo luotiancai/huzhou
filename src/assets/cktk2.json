@@ -1,0 +1,141 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "CKTK.1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.7276,
+          30.9987
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "Id": 0,
+        "YCR": 7,
+        "WCR": 6,
+        "ZR": 13
+      },
+      "bbox": [
+        119.7276,
+        30.9987,
+        119.7276,
+        30.9987
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "CKTK.2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5701,
+          30.5588
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "Id": 0,
+        "YCR": 7,
+        "WCR": 6,
+        "ZR": 13
+      },
+      "bbox": [
+        119.5701,
+        30.5588,
+        119.5701,
+        30.5588
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "CKTK.3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9894,
+          30.7478
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "Id": 0,
+        "YCR": 7,
+        "WCR": 6,
+        "ZR": 11
+      },
+      "bbox": [
+        119.9894,
+        30.7478,
+        119.9894,
+        30.7478
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "CKTK.4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.9449,
+          30.5512
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "Id": 0,
+        "YCR": 7,
+        "WCR": 6,
+        "ZR": 11
+      },
+      "bbox": [
+        119.9449,
+        30.5512,
+        119.9449,
+        30.5512
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": "CKTK.5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2258,
+          30.738
+        ]
+      },
+      "geometry_name": "the_geom",
+      "properties": {
+        "Id": 0,
+        "YCR": 7,
+        "WCR": 6,
+        "ZR": 11
+      },
+      "bbox": [
+        120.2258,
+        30.738,
+        120.2258,
+        30.738
+      ]
+    }
+  ],
+  "totalFeatures": 5,
+  "numberMatched": 5,
+  "numberReturned": 5,
+  "timeStamp": "2022-02-21T03:34:21.631Z",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::4326"
+    }
+  },
+  "bbox": [
+    119.5701,
+    30.5512,
+    120.2258,
+    30.9987
+  ]
+}
