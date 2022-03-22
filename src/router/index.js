@@ -10,6 +10,11 @@ const routes = [
     path: '/kqgl',
     name: 'KQGL',
     component: () => import('@/views/KQGL.vue')
+  },
+  {
+    path: '/zjtdt',
+    name: 'ZJTDT',
+    component: () => import('@/views/ZJTDT.vue')
   }
 ]
 
